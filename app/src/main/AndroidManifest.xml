@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wanderai.travelplanner">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="WanderAI"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WanderAI">
+
+        <!-- Google Maps SDK API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_GOOGLE_MAPS_API_KEY" />
+
+        <!-- Launch directly into RouteBuilderActivity -->
+        <activity
+            android:name=".RouteBuilderActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- AI Chatbot Assistant -->
+        <activity
+            android:name=".AIChatActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CampMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PackingListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GroupSplitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExpenseEstimatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ItineraryTimelineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeatherMicroclimateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TripHistoryProfileActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

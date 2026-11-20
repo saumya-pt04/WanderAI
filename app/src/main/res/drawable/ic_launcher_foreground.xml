@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Champagne Gold Mountain Silhouette -->
+    <path
+        android:fillColor="#C69753"
+        android:pathData="M28,72 L45,48 L56,62 L64,53 L80,72 Z" />
+
+    <!-- Crisp White Location Pin Above Peak -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,26 C57.9,26 53,30.9 53,37 C53,45.2 64,54 64,54 C64,54 75,45.2 75,37 C75,30.9 70.1,26 64,26 Z M64,41 C61.8,41 60,39.2 60,37 C60,34.8 61.8,33 64,33 C66.2,33 68,34.8 68,37 C68,39.2 66.2,41 64,41 Z" />
+</vector>

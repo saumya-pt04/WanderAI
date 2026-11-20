@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WanderAI" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_mint</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#F4E2E0</item>
+        <item name="colorOnPrimaryContainer">@color/brand_mint</item>
+
+        <item name="colorSecondary">@color/brand_coral</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#F4E2E0</item>
+        <item name="colorOnSecondaryContainer">@color/brand_mint</item>
+
+        <item name="android:statusBarColor">@color/status_bar_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/bg_midnight</item>
+    </style>
+</resources>

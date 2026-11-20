@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary & Accent Two-Color Brand System (Crimson Berry & Champagne Gold) -->
+    <color name="brand_mint">#5C1129</color>          <!-- Deep Burgundy Crimson (Primary Header & Brand) -->
+    <color name="brand_coral">#C69753</color>         <!-- Champagne Gold (Primary Action Buttons & Accents) -->
+
+    <!-- Surfaces & Backgrounds -->
+    <color name="bg_midnight">#FBF0EE</color>         <!-- Soft Blush Rose-Ivory Canvas -->
+    <color name="surface_card">#FFFFFF</color>        <!-- Pure White Elevated Cards -->
+    <color name="surface_tint">#F4E2E0</color>        <!-- Soft Rose Tint for Inputs & Active Nav Pill -->
+    <color name="status_bar_dark">#450A1E</color>     <!-- Deep Wine Status Bar -->
+
+    <!-- High-Contrast Typography -->
+    <color name="text_high_emphasis">#3D0C1B</color>  <!-- Deep Burgundy-Charcoal Ink -->
+    <color name="text_medium_emphasis">#6E4752</color><!-- Muted Plum-Slate -->
+    <color name="text_dim">#9E7B85</color>            <!-- Subtle Hint Rose-Grey -->
+
+    <!-- Status & Additional Accents -->
+    <color name="amber_warning">#D97706</color>        <!-- Warning Amber -->
+    <color name="secondary_emerald">#C69753</color>    <!-- Unified Champagne Gold Accent -->
+    <color name="primary_cyan">#C69753</color>         <!-- Unified Champagne Gold Accent -->
+    <color name="mint_light">#F4E2E0</color>           <!-- Soft Rose Tint Background -->
+    <color name="mint_dark_text">#5C1129</color>       <!-- Deep Burgundy Text -->
+</resources>

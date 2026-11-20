@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "39845196727",
+    "project_id": "wanderai-c6179",
+    "storage_bucket": "wanderai-c6179.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39845196727:android:c71fe034241b4c1a46ee32",
+        "android_client_info": {
+          "package_name": "com.wanderai.travelplanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAutNbTHBS9bJDU061PoN2fS0yqXVJlRaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
